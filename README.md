@@ -13,30 +13,18 @@
 
 
 ### 功能介绍
-
-![image-20210907161542424](C:\Users\61042\AppData\Roaming\Typora\typora-user-images\image-20210907161542424.png)
+![image-20210907161542424](https://user-images.githubusercontent.com/56959230/132311564-748ef152-d2d4-45f1-a1a1-23c189a08ad4.png)
 
 ### 架构说明
-
-![image-20210907161619255](C:\Users\61042\AppData\Roaming\Typora\typora-user-images\image-20210907161619255.png)
-
-
+![image-20210907161619255](https://user-images.githubusercontent.com/56959230/132311592-9862b0f1-fe3c-4921-9feb-02f6c67b6517.png)
 
 ### IPC通信
-
-![image-20210907161824802](C:\Users\61042\AppData\Roaming\Typora\typora-user-images\image-20210907161824802.png)
-
-
+![image-20210907161824802](https://user-images.githubusercontent.com/56959230/132311610-38de973f-ce51-45b1-90ef-f33112ca3726.png)
 
 ### 通信协议
+![image-20210907161703906](https://user-images.githubusercontent.com/56959230/132311642-f5c234c4-e67f-4559-899f-2378b9017a03.png)
 
-![image-20210907161703906](C:\Users\61042\AppData\Roaming\Typora\typora-user-images\image-20210907161703906.png)
-
-
-
-![image-20210907161939841](C:\Users\61042\AppData\Roaming\Typora\typora-user-images\image-20210907161939841.png)
-
-
+![image-20210907161939841](https://user-images.githubusercontent.com/56959230/132311671-be823b0c-d912-4d0b-834c-96918223b397.png)
 
 ### 软件环境说明
 
@@ -47,8 +35,6 @@
 （3）运行系统：linux；
 
 （4）数据库：sqlite3；
-
-
 
 ### 配置文件说明
 
@@ -62,10 +48,9 @@
 ```
 
 配置文件详细描述:
+![1](https://user-images.githubusercontent.com/56959230/132311751-2f1ea8cc-80d1-4e69-bd2f-2822e09e0048.png)
+![2](https://user-images.githubusercontent.com/56959230/132311771-9575bacb-0dc8-451b-90ab-9c43770af8b6.png)
 
-![1](D:\Desktop\1.png)
-
-![2](D:\Desktop\2.png)
 
 
 
