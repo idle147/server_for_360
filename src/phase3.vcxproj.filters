@@ -1,0 +1,367 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="IPC">
+      <UniqueIdentifier>{c8049c5b-d917-4fcc-9c68-33cced49c8be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="server">
+      <UniqueIdentifier>{77a51fa5-6d3a-4864-9ca6-9e4172c8ba03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mutex">
+      <UniqueIdentifier>{115556db-634b-459f-8266-495718ccc060}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="database">
+      <UniqueIdentifier>{89ed5b33-5114-4eb3-b89e-ee6e16fae4d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="safe">
+      <UniqueIdentifier>{62225a2d-4d08-4a08-80e5-4857bf6db2af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="config">
+      <UniqueIdentifier>{7e3e1fc3-1116-42a8-a171-1599f85a5625}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="template">
+      <UniqueIdentifier>{49114fa6-6c3e-4bd6-8516-9ad9a6b8f2c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tool">
+      <UniqueIdentifier>{51f740d9-92d4-46dd-b51b-4dc6dc3f85ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="log">
+      <UniqueIdentifier>{b3f63228-3c0a-4929-91dd-450c9e53a15b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="task">
+      <UniqueIdentifier>{fe721dce-9578-4995-8d71-e2681365b1c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rapidjson">
+      <UniqueIdentifier>{07f0f41c-cd22-4f5d-a767-a71a3355b268}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rapidjson\error">
+      <UniqueIdentifier>{8630c2c3-a55f-4791-8d39-17390453869d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rapidjson\internal">
+      <UniqueIdentifier>{7898c82f-c77b-43aa-a984-c055f8dd4002}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rapidjson\msinttypes">
+      <UniqueIdentifier>{bec58b46-8c49-4333-9d35-c52c0de8c9c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrontServer">
+      <UniqueIdentifier>{158fe2e9-1f24-4b0e-9482-d7dec8007f6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BackServer">
+      <UniqueIdentifier>{63dbb271-d9c6-4666-ad5e-fbef78ebd33a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="safe\aes">
+      <UniqueIdentifier>{e201181a-d5dc-4541-a65d-68ec8865fca7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CShareMemory.cpp">
+      <Filter>IPC</Filter>
+    </ClCompile>
+    <ClCompile Include="CMsgQueue.cpp">
+      <Filter>IPC</Filter>
+    </ClCompile>
+    <ClCompile Include="CSocket.cpp">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="CEpollBase.cpp">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="CCond.cpp">
+      <Filter>mutex</Filter>
+    </ClCompile>
+    <ClCompile Include="CSemMutex.cpp">
+      <Filter>mutex</Filter>
+    </ClCompile>
+    <ClCompile Include="CMutexLock.cpp">
+      <Filter>mutex</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="CXORencode.cpp">
+      <Filter>safe</Filter>
+    </ClCompile>
+    <ClCompile Include="CThreadPool.cpp">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="CServerJson.cpp">
+      <Filter>config</Filter>
+    </ClCompile>
+    <ClCompile Include="CJson.cpp">
+      <Filter>config</Filter>
+    </ClCompile>
+    <ClCompile Include="CDataBaseOpt.cpp">
+      <Filter>database</Filter>
+    </ClCompile>
+    <ClCompile Include="ctool.cpp">
+      <Filter>tool</Filter>
+    </ClCompile>
+    <ClCompile Include="CLogger.cpp">
+      <Filter>log</Filter>
+    </ClCompile>
+    <ClCompile Include="CHeartbeat.cpp">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="global.cpp">
+      <Filter>config</Filter>
+    </ClCompile>
+    <ClCompile Include="CTimer.cpp">
+      <Filter>tool</Filter>
+    </ClCompile>
+    <ClCompile Include="FrontTcpServer.cpp">
+      <Filter>FrontServer</Filter>
+    </ClCompile>
+    <ClCompile Include="CServerSend.cpp">
+      <Filter>FrontServer</Filter>
+    </ClCompile>
+    <ClCompile Include="BackEndServer.cpp">
+      <Filter>BackServer</Filter>
+    </ClCompile>
+    <ClCompile Include="CFileOpt.cpp">
+      <Filter>tool</Filter>
+    </ClCompile>
+    <ClCompile Include="md5.cpp">
+      <Filter>safe</Filter>
+    </ClCompile>
+    <ClCompile Include="aes.cpp">
+      <Filter>safe\aes</Filter>
+    </ClCompile>
+    <ClCompile Include="CCipher.cpp">
+      <Filter>safe\aes</Filter>
+    </ClCompile>
+    <ClCompile Include="CVideoInfo.cpp">
+      <Filter>database</Filter>
+    </ClCompile>
+    <ClCompile Include="CFileTable.cpp">
+      <Filter>database</Filter>
+    </ClCompile>
+    <ClCompile Include="CLoginAndReg.cpp">
+      <Filter>database</Filter>
+    </ClCompile>
+    <ClCompile Include="BackTask.cpp">
+      <Filter>task</Filter>
+    </ClCompile>
+    <ClCompile Include="CFrontTask.cpp">
+      <Filter>task</Filter>
+    </ClCompile>
+    <ClCompile Include="CSendTask.cpp">
+      <Filter>task</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CShareMemory.h">
+      <Filter>IPC</Filter>
+    </ClInclude>
+    <ClInclude Include="CMsgQueue.h">
+      <Filter>IPC</Filter>
+    </ClInclude>
+    <ClInclude Include="CSocket.h">
+      <Filter>server</Filter>
+    </ClInclude>
+    <ClInclude Include="CEpollBase.h">
+      <Filter>server</Filter>
+    </ClInclude>
+    <ClInclude Include="CCond.h">
+      <Filter>mutex</Filter>
+    </ClInclude>
+    <ClInclude Include="CSemMutex.h">
+      <Filter>mutex</Filter>
+    </ClInclude>
+    <ClInclude Include="CMutexLock.h">
+      <Filter>mutex</Filter>
+    </ClInclude>
+    <ClInclude Include="CCrc.h">
+      <Filter>safe</Filter>
+    </ClInclude>
+    <ClInclude Include="CXORencode.h">
+      <Filter>safe</Filter>
+    </ClInclude>
+    <ClInclude Include="CThreadPool.h">
+      <Filter>server</Filter>
+    </ClInclude>
+    <ClInclude Include="CSigleton.h">
+      <Filter>template</Filter>
+    </ClInclude>
+    <ClInclude Include="CServerJson.h">
+      <Filter>config</Filter>
+    </ClInclude>
+    <ClInclude Include="CJson.h">
+      <Filter>config</Filter>
+    </ClInclude>
+    <ClInclude Include="CDataBaseOpt.h">
+      <Filter>database</Filter>
+    </ClInclude>
+    <ClInclude Include="ctool.h">
+      <Filter>tool</Filter>
+    </ClInclude>
+    <ClInclude Include="CUserOpt.h">
+      <Filter>database</Filter>
+    </ClInclude>
+    <ClInclude Include="CLogger.h">
+      <Filter>log</Filter>
+    </ClInclude>
+    <ClInclude Include="CTask.h">
+      <Filter>task</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\document.h">
+      <Filter>rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\stringbuffer.h">
+      <Filter>rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\writer.h">
+      <Filter>rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\allocators.h">
+      <Filter>rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\cursorstreamwrapper.h">
+      <Filter>rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\encodedstream.h">
+      <Filter>rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\encodings.h">
+      <Filter>rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\filereadstream.h">
+      <Filter>rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\filewritestream.h">
+      <Filter>rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\fwd.h">
+      <Filter>rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\istreamwrapper.h">
+      <Filter>rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\memorybuffer.h">
+      <Filter>rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\memorystream.h">
+      <Filter>rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\ostreamwrapper.h">
+      <Filter>rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\pointer.h">
+      <Filter>rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\prettywriter.h">
+      <Filter>rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\rapidjson.h">
+      <Filter>rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\reader.h">
+      <Filter>rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\schema.h">
+      <Filter>rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\stream.h">
+      <Filter>rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\error\en.h">
+      <Filter>rapidjson\error</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\error\error.h">
+      <Filter>rapidjson\error</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\internal\biginteger.h">
+      <Filter>rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\internal\clzll.h">
+      <Filter>rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\internal\diyfp.h">
+      <Filter>rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\internal\dtoa.h">
+      <Filter>rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\internal\ieee754.h">
+      <Filter>rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\internal\itoa.h">
+      <Filter>rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\internal\meta.h">
+      <Filter>rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\internal\pow10.h">
+      <Filter>rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\internal\regex.h">
+      <Filter>rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\internal\stack.h">
+      <Filter>rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\internal\strfunc.h">
+      <Filter>rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\internal\strtod.h">
+      <Filter>rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\internal\swap.h">
+      <Filter>rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\msinttypes\inttypes.h">
+      <Filter>rapidjson\msinttypes</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidjson\msinttypes\stdint.h">
+      <Filter>rapidjson\msinttypes</Filter>
+    </ClInclude>
+    <ClInclude Include="CHeartbeat.h">
+      <Filter>server</Filter>
+    </ClInclude>
+    <ClInclude Include="Packet.h">
+      <Filter>config</Filter>
+    </ClInclude>
+    <ClInclude Include="global.h">
+      <Filter>config</Filter>
+    </ClInclude>
+    <ClInclude Include="CTimer.h">
+      <Filter>tool</Filter>
+    </ClInclude>
+    <ClInclude Include="FrontTcpServer.h">
+      <Filter>FrontServer</Filter>
+    </ClInclude>
+    <ClInclude Include="CServerSend.h">
+      <Filter>FrontServer</Filter>
+    </ClInclude>
+    <ClInclude Include="BackEndServer.h">
+      <Filter>BackServer</Filter>
+    </ClInclude>
+    <ClInclude Include="CFileOpt.h">
+      <Filter>tool</Filter>
+    </ClInclude>
+    <ClInclude Include="md5.h">
+      <Filter>safe</Filter>
+    </ClInclude>
+    <ClInclude Include="aes.h">
+      <Filter>safe\aes</Filter>
+    </ClInclude>
+    <ClInclude Include="CCipher.h">
+      <Filter>safe\aes</Filter>
+    </ClInclude>
+    <ClInclude Include="CVideoInfo.h">
+      <Filter>database</Filter>
+    </ClInclude>
+    <ClInclude Include="CLoginAndReg.h">
+      <Filter>database</Filter>
+    </ClInclude>
+    <ClInclude Include="CFileTable.h">
+      <Filter>database</Filter>
+    </ClInclude>
+    <ClInclude Include="BackTask.h">
+      <Filter>task</Filter>
+    </ClInclude>
+    <ClInclude Include="CFrontTask.h">
+      <Filter>task</Filter>
+    </ClInclude>
+    <ClInclude Include="CSendTask.h">
+      <Filter>task</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
